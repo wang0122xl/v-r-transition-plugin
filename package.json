@@ -1,12 +1,12 @@
 {
   "name": "v-r-transition-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "build/index.js",
   "repository": "git@github.com:wang0122xl/v-r-transition-plugin.git",
   "author": "喵大快救我 <wang0122xl@163.com>",
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "rm -rf build && tsc"
+    "prepare": "rm -rf build && tsc"
   },
   "devDependencies": {
     "typescript": "^4.3.2"
