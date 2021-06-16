@@ -14,6 +14,7 @@
 <script>
     import routeAnimation from 'v-r-transition-plugin'
     const app = createApp(App)
+    app.use(router)
     app.use(routeAnimation)
 </script>
 ```
