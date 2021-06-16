@@ -27,8 +27,8 @@
 | $.dismiss | 'dismiss' |
 
 ## 注意
-> $.dismiss()使用后路由将直接回退到调用$.present()的地址
-> $.present()后，谨慎使用router.go(num < -1)
+> * $.dismiss()使用后路由将直接回退到调用$.present()的地址
+> * $.present()后，谨慎使用router.go(num < -1)
 
 ## 默认transition
 ```css
