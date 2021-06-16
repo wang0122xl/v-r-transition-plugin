@@ -1,6 +1,6 @@
 {
   "name": "v-r-transition-plugin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "build/index.js",
   "repository": "git@github.com:wang0122xl/v-r-transition-plugin.git",
   "author": "喵大快救我 <wang0122xl@163.com>",
