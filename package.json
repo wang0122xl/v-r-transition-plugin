@@ -1,6 +1,6 @@
 {
   "name": "v-r-transition-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "build/index.js",
   "repository": "git@github.com:wang0122xl/v-r-transition-plugin.git",
   "author": "喵大快救我 <wang0122xl@163.com>",
@@ -19,5 +19,5 @@
     "vue": "^3.0.5",
     "vue-router": "4"
   },
-  "types": "build/index.d.ts"
+  "types": "./build/index.d.ts"
 }
