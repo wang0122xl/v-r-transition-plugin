@@ -1,6 +1,13 @@
 import { RouteLocationNormalized, RouteLocationRaw } from "vue-router"
 import * as Vue from 'vue'
-import './routeAnimation.css'
+import '../style/index.css'
+
+declare module '@vue/runtime-core' {
+    export interface ComponentCustomProperties {
+        $present: (to: RouteLocationRaw) => void
+        $dismiss: () => void
+    }
+}
 
 interface RouteAnimationProps {
     position?: number

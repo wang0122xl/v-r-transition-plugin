@@ -3,6 +3,8 @@
         "declaration": true,
         "rootDir": "src",
         "outDir": "build",
-        "skipLibCheck": true
+        "target": "ES6",
+        "skipLibCheck": true,
+        "moduleResolution": "node"
     }
 }
