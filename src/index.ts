@@ -1,3 +1,10 @@
+/*
+ * @Date: 2021-07-31 15:23:54
+ * @Author: wang0122xl@163.com
+ * @LastEditors: wang0122xl@163.com
+ * @LastEditTime: 2021-08-02 19:00:11
+ * @Description: file content
+ */
 import { RouteLocationNormalized, RouteLocationRaw } from "vue-router"
 import * as Vue from 'vue'
 import '../style/index.css'
@@ -41,7 +48,7 @@ export default {
             from.meta[options.routeMetaTransitionName!] = transition
         }
 
-        app.config.globalProperties.$router.afterEach((to: RouteLocationNormalized, from: RouteLocationNormalized) => {
+        app.config.globalProperties.$router.beforeEach((to: RouteLocationNormalized, from: RouteLocationNormalized) => {
             if (options.position == undefined) {
                 options.position = 0
             } else {
